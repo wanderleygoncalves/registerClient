@@ -49,6 +49,6 @@ Após realizar o clone ou o download do projeto, será necessário abrir a pasta
 
 Caso queira ver como a aplicação funciona, acesse o link.
 
-https://registerclients.netlify.app/List
+https://registerclients.netlify.app
 
 

@@ -43,8 +43,7 @@ Após realizar o clone ou o download do projeto, será necessário abrir a pasta
 ```    
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+<img src="https://github.com/wanderleygoncalves/registerClient/blob/main/Screenshot.png" />
 
 ## Demonstração
 

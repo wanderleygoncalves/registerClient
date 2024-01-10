@@ -1,29 +1,55 @@
-# registerclient
 
-This template should help get you started developing with Vue 3 in Vite.
+# Formulário para cadastro de clientes
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+A aplicação cadastro de clientes é um modelo de formulário criado com Vue.js para a realização
+de cadastros de clientes com a opção de associar um cliente a um produto.
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Funcionalidades
 
-## Project Setup
+- Funcionalidade 1:
 
-```sh
-npm install
+	Alterar o status de um produto como ativo ou inativo.
+- Funcionalidade 2
+
+	Cadastrar clientes podendo deixar o mesmo com o status de ativo ou inativo.
+- Funcionalidade 3:
+
+	Associar o cliente a um produto, podendo deixar o status do produto ativo ou inativo.
+
+
+
+## InstalaçãoComo utilizar a aplicação
+
+Antes de Começar, é necessário ter instalado em sua máquina as seguintes ferramentas.
+
+- Git
+- Node.js
+- VSCode
+Após realizar o clone ou o download do projeto, será necessário abrir a pasta do projeto e realizar a instalação das dependências utilizando algum gerenciador de pacotes como por exemplo o npm.
+
+- como VSCode instalado, abra o projeto utilizando o VSCode.
+- Em seguida abra o terminal do VSCode e digite o comando abaixo.
+
+```bash
+  npm install
 ```
 
-### Compile and Hot-Reload for Development
+- Após ter instalado todas as dependências, utilize o comando npm run dev para iniciar a aplicação.
 
-```sh
-npm run dev
-```
+```bash
+	npm run dev
+```    
+## Screenshots
 
-### Compile and Minify for Production
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-```sh
-npm run build
-```
+
+## Demonstração
+
+Caso queira ver como a aplicação funciona, acesse o link.
+
+https://registerclients.netlify.app/List
+
+

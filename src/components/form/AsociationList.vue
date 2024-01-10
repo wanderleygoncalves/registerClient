@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="headline">
-      <div class="headline-title">Lista de associações</div>
+      <div class="headline-title">Associação Cliente / Produto</div>
     </div>
 
     <div class="form">

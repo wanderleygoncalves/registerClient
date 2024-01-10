@@ -1,0 +1,98 @@
+@import "../scss/base.scss";
+
+:root {
+  --color-default: #005b90;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+.form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+  div {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    flex-direction: column;
+  }
+  input,
+  select {
+    width: 80%;
+    height: 38px;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid;
+    outline-color: #055b9b !important;
+  }
+}
+a,
+.blue {
+  text-decoration: none;
+  color: #055b9b;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid var(--color-default);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin: 10px;
+
+  &:hover {
+    background-color: #005b90;
+    color: white;
+  }
+}
+
+.headline {
+  &-title {
+    width: 50%;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 0 12px 30px;
+    position: relative;
+    text-transform: uppercase;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 14px;
+      bottom: 20px;
+      width: 100%;
+      height: 1px;
+      background: #005b90;
+    }
+  }
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}

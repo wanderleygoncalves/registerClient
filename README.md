@@ -27,6 +27,7 @@ Antes de Começar, é necessário ter instalado em sua máquina as seguintes fer
 - Git
 - Node.js
 - VSCode
+
 Após realizar o clone ou o download do projeto, será necessário abrir a pasta do projeto e realizar a instalação das dependências utilizando algum gerenciador de pacotes como por exemplo o npm.
 
 - como VSCode instalado, abra o projeto utilizando o VSCode.
